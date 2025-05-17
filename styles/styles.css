@@ -1,12 +1,58 @@
 body {
     background-color: #E0E3EB;
 }
-.header {
-    background-color: #90AD85;
+h1 {
+    font-family: "Electrolize", sans-serif;
 }
-.summary {
+h2 {
+    font-family: "Electrolize", sans-serif;
+}
+h3 {
+    font-family: "Quicksand", sans-serif;
+}
+p {
+    font-family: "Quicksand", sans-serif;
+}
+ul {
+    
+}
+li {
+    font-family: "Quicksand", sans-serif;
+}
+
+.header {
+    max-width: 1200px;
+    width: 100%;
+    min-height: auto;
+    height: 100%;
+    margin: auto;
+    background-color: #90AD85;
+
+}
+.CV-container {
+    max-width: 1200px;
+    width: 100%;
+    min-height: auto;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    background-color: #E0E3EB;
+}
+.summary-container {
+    max-width: 400px;
+    width: 100%;
+    min-height: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: #051B61;
 }
-.experience {
+.experience-container {
+    max-width: 800px;
+    width: 100%;
+    min-height: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: #E0E3EB;
 }
