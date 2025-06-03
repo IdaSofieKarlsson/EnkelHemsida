@@ -1,5 +1,5 @@
 body {
-    background-color: #E0E3EB;
+    background-color: whitesmoke;
 }
 h1 {
     font-family: "Electrolize", sans-serif;
@@ -13,24 +13,28 @@ h3 {
 p {
     font-family: "Quicksand", sans-serif;
 }
-ul {
-    
-}
+
 li {
     font-family: "Quicksand", sans-serif;
+    list-style-type: none;
+    margin-bottom: 5px;
 }
 
 .header {
-    max-width: 1200px;
+    max-width: 1000px;
     width: 100%;
-    min-height: auto;
+    min-height: 250px;
     height: 100%;
     margin: auto;
+    margin-top: 15px;
     background-color: #90AD85;
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
 .CV-container {
-    max-width: 1200px;
+    max-width: 1000px;
     width: 100%;
     min-height: auto;
     height: 100%;
@@ -39,20 +43,52 @@ li {
     background-color: #E0E3EB;
 }
 .summary-container {
-    max-width: 400px;
+    max-width: 350px;
     width: 100%;
     min-height: auto;
     height: 100%;
     display: flex;
     flex-direction: column;
     background-color: #051B61;
+    color: #E0E3EB;
+    padding: 10px;
 }
+.summery-p {
+    text-align: justify;
+}
+.summary-container ul {
+    display: flex;
+    flex-direction: column;
+}
+
 .experience-container {
-    max-width: 800px;
+    max-width: 650px;
     width: 100%;
     min-height: auto;
     height: 100%;
     display: flex;
     flex-direction: column;
+    color: #051B61;
     background-color: #E0E3EB;
+    padding: 10px;
+}
+.experience-container ul {
+    display: flex;
+    padding-left: 0px;
+    
+}
+.experience-container li {
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+.experience-company {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+.experience-company p {
+    text-align: justify;
 }
